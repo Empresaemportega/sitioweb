@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600;700;800 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+   
+}
+
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: #F3FDE8;
+    overflow-x: hidden;
+    
+    
+}
+ 
+
+
+.Empor{
+    width: 75px; /* Ancho máximo del logo */
+    height: 65px; /* Altura */
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+    padding: 5px;
+
+    
+   
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    display: flex;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #4682A9;
+    
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    
+    
+}
+
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: 600;
+    
+
+}
+
+
+
+.bg{
+    position: absolute;
+    width: 700px;
+    z-index: -1;
+    right: 0;
+}
+
+
+
+.header-info{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+
+.header-txt{
+    width: 50%;
+    padding-right: 35px;
+    
+}
+
+.header-txt h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+}
+
+
+
+.header-img img{
+    width: 350px;
+    
+    
+}
+
+.info {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+.info-1{
+    width: 300px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F8DE22;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    
+}
+
+
+.info-1:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.info-1 h3{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+hr{
+    border: 1px solid #cacacaee;
+}
+
+
+.footer{
+    padding: 20px 0;
+   
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+
+}
+
+.socials img{
+    margin-right: 15px;
+}
+
+.link ul li a{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+

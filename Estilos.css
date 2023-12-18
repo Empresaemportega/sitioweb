@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    top: 0;
+}
+ 
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+    overflow-x: hidden;  /* Bloquear desplazamiento horizontal */
+    background-color:#Ffff;
+}
+
+ 
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+} 
+
+.header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7)),
+        url(Img/Fondo2.jpeg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    width: 150px;
+    height: 110px;
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+    padding: 5px;
+    
+}
+
+.Otrologo{
+    width: 120px;
+    height: 70px;
+    float: right;
+    margin-right: 20px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 17px;
+    padding: 20px;
+    color: #ffff;
+    display: block;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li a:hover{
+    color: #7A9D54;
+    
+}
+
+
+.header-content{
+    text-align: center;
+    
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #ffff;
+    padding: 0 250px; 
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #54B435;
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #E9EDC9;
+}
+
+
+
+
+
+.Emportega{
+    padding: 60px 0;
+    background-color: #ffff;
+    position: relative;
+    display: flex;
+    
+}
+.Empor-img img{
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+
+}
+
+.Emportega-content{
+    text-align: center;
+}
+
+.Emportega-content h2{
+    font-size: 50px;
+    line-height: 70px; 
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #000;
+    padding: 20px;
+    margin-bottom: 35px;
+    text-align: justify;
+
+
+
+}
+
+
+
+
+.servicios{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(Img/Fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;  
+
+}
+
+.services-content{
+    text-align: center;
+
+}
+
+.services-content h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 14px;
+    color: #ffff;
+    margin-bottom: 10px;
+    text-align: justify; 
+}
+
+.services-group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    margin: 5px 30px;
+    max-width: 450px;
+    margin-bottom: 50px;
+
+}
+
+.services-1:hover {
+    transform: scale(1.03); 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.services-1 img{
+    width: 170px;
+    height: 130px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-1 h3{
+    color: #ffff;
+    font-size: 16px;   
+}
+
+
+
+
+.general {
+    display: flex;
+} 
+
+.general-1{
+    width: 50%;
+    padding: 50px 150px 50px 50px;
+    background-color: #E9EDC9;
+    
+}
+
+.general-2{
+    background-image: url(Img/Visión..png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(Img/Misión..png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    color: #000;
+    margin: 25px 0 45px 0;
+    text-align: justify;
+}
+
+
+
+
+
+.social-bar {
+    position: fixed;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000;
+    
+   
+}
+  
+  .social-item {
+    display: block;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    display: flex;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+    background-color: #FFF6DC;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+  .social-icon {
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-right: 8px;
+}
+  
+  .social-icon:hover {
+    color: #1A5D1A;
+}
+
+  .social-name {
+    font-size: 14px;
+    display: none; /* Ocultar el nombre */
+}
+
+  .social-item:hover .social-name {
+    display: block; /* Mostrar el nombre al pasar el cursor */
+}
+
+
+
+
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    width: 14%;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    height: 100%; /* Ocupa la altura completa del contenedor */
+    object-fit: cover;
+}
+
+
+
+
+.row {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    
+    padding: 15px;
+    background-color: #E9EDC9;
+    
+}
+
+.column {  
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+
+@media screen and (max-width: 650px) {
+.column {
+    width: 100%;
+    display: block;
+    }
+}
+
+ 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px;
+    background-color: #ffff;
+}
+
+
+.container {
+    padding: 0 16px;
+}
+  
+ 
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: #555;
+}
+
+
+
+
+/* Anuncio publicitario*/
+
+#banner{
+    background-size: cover;
+    color: #ffff;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid #000000;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+      url(Img/Digital.jpg);
+    
+}
+
+#banner p{
+  font-family: 'Poppins', sans-serif;
+  color: #Ffff;
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+#banner img {
+    width: 120px; /* Ancho máximo del logo */
+    height: 110px; /* Altura */
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    border-radius: 55%; 
+}
+
+
+#banner h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+#close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #F8DE22
+    
+  }
+
+/*Estilos Boton*/
+
+.button3 {
+    position: relative;
+    background-color: #F4EEEE;
+    border: none;
+    color: #000000;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+    
+  }
+  
+.button3:after {
+    content: "";
+    display: inline block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+
+
+  }
+  
+.button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button3:hover{ 
+    background-color: #7A9D54;
+
+}
+
+
+/*Hasta aca termina el anuncio*/
+
+
+
+.hr{
+    color: #3d3a3a;
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: black;
+    padding: 80px 0;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 18px;
+    color: #ffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #1A5D1A;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+    color: #ffff;
+    padding-left: 6px;
+}
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(225, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffff;
+    transition: all .5s ease;
+}
+
+.social-link a:hover{
+    background-color: #1A5D1A;
+
+}
+
+/* Responsive */
+
+
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+    
+    
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    
+    .menu .navbar ul li{
+        width: 100%;
+    }
+      
+    
+    
+    
+    .header{
+        min-height: 0vh;
+    }
+    
+    .header-content{
+        padding: 100px 30px;
+    }
+    
+    .header-content p{
+        padding: 0;
+    }
+    
+
+    .Emportega {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Empor-img img {
+        max-width: 100%;
+    }
+
+    .Emportega-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .services-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .carousel-container {
+        max-width: 80%;
+        overflow: hidden;
+    }
+
+    .carousel img.carousel-item {
+        width: 80%;
+        height: auto;
+    }
+
+    .general-1,
+    .general-2,
+    .general-3 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .social-bar {
+        text-align: center;
+    }
+
+    .social-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #banner h1 {
+        font-size: 18px;
+    }
+
+
+    .footer-row{
+        text-align: center;
+    }
+  
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Pantallas medianas*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Pantallas grandes*/
+@media screen and (min-width: 1200px) {
+}
