@@ -606,120 +606,39 @@ p{
 
 }
 
-/* Responsive */
+/* RESPOSIVE PARA CELULAR */
 
-
-
-@media(max-width:991px){
-
-    .menu{
-        padding: 30px;
-    }
-    
-    
-    .menu .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #323337;
-        display: none;
-    }
-    
-    .menu .navbar ul li{
-        width: 100%;
-    }
-      
-    
-    
-    
-    .header{
-        min-height: 0vh;
-    }
-    
-    .header-content{
-        padding: 100px 30px;
-    }
-    
-    .header-content p{
-        padding: 0;
-    }
-    
-
-    .Emportega {
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 991px) {
+    .menu {
+        display: none; /* Oculta la barra de navegación */
     }
 
-    .Empor-img img {
+    .header-content {
+        padding: 50px 10px;
+        text-align: center;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+    }
+
+    .header-content p {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* Ajustes para los logos estaticos a los lados */
+    .logo-left,
+    .logo-right {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        margin-top: 20px; /* Ajusta según sea necesario para el espacio entre el logo y el contenido */
+    }
+
+    .logo-left img,
+    .logo-right img {
         max-width: 100%;
-    }
-
-    .Emportega-content {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .services-group {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .services-1 {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .carousel-container {
-        max-width: 80%;
-        overflow: hidden;
-    }
-
-    .carousel img.carousel-item {
-        width: 80%;
         height: auto;
     }
-
-    .general-1,
-    .general-2,
-    .general-3 {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .social-bar {
-        text-align: center;
-    }
-
-    .social-item {
-        display: inline-block;
-        margin: 0 10px;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    #banner h1 {
-        font-size: 18px;
-    }
-
-
-    .footer-row{
-        text-align: center;
-    }
-  
-    .footer-links{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
-
-
-/* Pantallas medianas*/
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-}
-
-/* Pantallas grandes*/
-@media screen and (min-width: 1200px) {
 }
