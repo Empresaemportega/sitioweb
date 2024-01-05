@@ -608,6 +608,8 @@ p{
 
 /* RESPOSIVE PARA CELULAR */
 
+/* RESPOSIVE PARA CELULAR */
+
 @media (max-width: 991px) {
     .menu {
         display: none; /* Oculta la barra de navegación */
@@ -641,4 +643,81 @@ p{
         max-width: 100%;
         height: auto;
     }
+
+    .Emportega {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Empor-img img {
+        max-width: 100%;
+    }
+
+    .Emportega-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .services-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .carousel-container {
+        max-width: 80%;
+        overflow: hidden;
+    }
+
+    .carousel img.carousel-item {
+        width: 80%;
+        height: auto;
+    }
+
+    .general-1,
+    .general-2,
+    .general-3 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .social-bar {
+        text-align: center;
+    }
+
+    .social-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #banner h1 {
+        font-size: 18px;
+    }
+
+
+    .footer-row{
+        text-align: center;
+    }
+  
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Pantallas medianas*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Pantallas grandes*/
+@media screen and (min-width: 1200px) {
 }
