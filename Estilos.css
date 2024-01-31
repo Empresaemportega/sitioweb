@@ -541,6 +541,22 @@ p{
     color: #3d3a3a;
 }
 
+/* Video */
+h3 {
+    color: #333;
+    text-align: center;
+    
+}
+
+
+video {
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    
+}
+/* Terminación */
 
 
 
